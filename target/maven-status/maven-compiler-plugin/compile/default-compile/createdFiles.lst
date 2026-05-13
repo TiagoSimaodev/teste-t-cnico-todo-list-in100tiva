@@ -1,2 +1,10 @@
 com\todolist\entity\Task.class
+com\todolist\dto\TaskRequest.class
+com\todolist\exception\GlobalExceptionHandler.class
+com\todolist\dto\TaskResponse.class
+com\todolist\exception\TaskNotFoundException.class
+com\todolist\service\TaskService.class
+com\todolist\controller\TaskController.class
 com\todolist\repository\TaskRepository.class
+com\todolist\TodoList100TivaApplication.class
+com\todolist\config\CorsConfig.class
