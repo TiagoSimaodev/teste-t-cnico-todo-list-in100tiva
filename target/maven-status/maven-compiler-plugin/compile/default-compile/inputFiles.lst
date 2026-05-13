@@ -1,0 +1,10 @@
+C:\Users\tiago\Documents\projetos\to-do-list-100tiva\src\main\java\com\todolist\controller\TaskController.java
+C:\Users\tiago\Documents\projetos\to-do-list-100tiva\src\main\java\com\todolist\entity\Task.java
+C:\Users\tiago\Documents\projetos\to-do-list-100tiva\src\main\java\com\todolist\dto\TaskRequest.java
+C:\Users\tiago\Documents\projetos\to-do-list-100tiva\src\main\java\com\todolist\repository\TaskRepository.java
+C:\Users\tiago\Documents\projetos\to-do-list-100tiva\src\main\java\com\todolist\config\CorsConfig.java
+C:\Users\tiago\Documents\projetos\to-do-list-100tiva\src\main\java\com\todolist\exception\TaskNotFoundException.java
+C:\Users\tiago\Documents\projetos\to-do-list-100tiva\src\main\java\com\todolist\service\TaskService.java
+C:\Users\tiago\Documents\projetos\to-do-list-100tiva\src\main\java\com\todolist\exception\GlobalExceptionHandler.java
+C:\Users\tiago\Documents\projetos\to-do-list-100tiva\src\main\java\com\todolist\TodoList100TivaApplication.java
+C:\Users\tiago\Documents\projetos\to-do-list-100tiva\src\main\java\com\todolist\dto\TaskResponse.java
