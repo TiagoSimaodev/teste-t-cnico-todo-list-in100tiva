@@ -9,7 +9,7 @@ Backend completo e profissional para uma aplicação To-Do List desenvolvido com
 - Swagger UI: https://teste-t-cnico-todo-list-in100tiva-production.up.railway.app/api/swagger-ui/index.html
 
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Java 21** - Linguagem de programação
 - **Spring Boot 3.2.0** - Framework para desenvolvimento de aplicações Java
@@ -49,7 +49,7 @@ src/
 └── test/                                          # (Diretório para testes futuros)
 ```
 
-## � Frontend
+##  Frontend
 
 O projeto inclui um frontend completo desenvolvido com HTML5, CSS3 e JavaScript puro (Vanilla JS), sem frameworks externos.
 
@@ -105,7 +105,7 @@ frontend/
 - **Feedback visual** com toasts de erro
 - **Animações suaves** para melhor UX
 
-## �🏗️ Arquitetura
+##  Arquitetura
 
 O projeto segue uma arquitetura em camadas bem definida:
 
@@ -157,7 +157,7 @@ O projeto segue uma arquitetura em camadas bem definida:
 }
 ```
 
-## 🔗 Endpoints da API
+##  Endpoints da API
 
 | Método | Endpoint | Descrição |
 |--------|----------|-----------|
@@ -169,7 +169,7 @@ O projeto segue uma arquitetura em camadas bem definida:
 
 **Base URL:** `http://localhost:8080/api`
 
-## 📋 Exemplos de Uso
+##  Exemplos de Uso
 
 ### Criar Tarefa
 ```bash
@@ -254,7 +254,7 @@ DELETE /api/tasks/1
 
 **Resposta (204 No Content):**
 
-## ❌ Tratamento de Erros
+##  Tratamento de Erros
 
 ### Validação de Dados (400 Bad Request)
 ```json
@@ -289,7 +289,7 @@ DELETE /api/tasks/1
 }
 ```
 
-## 🛠️ Como Executar o Projeto
+##  Como Executar o Projeto
 
 ### Pré-requisitos
 - Java 21 instalado
@@ -351,7 +351,7 @@ curl -X PUT http://localhost:8080/api/tasks/1 \
 curl -X DELETE http://localhost:8080/api/tasks/1
 ```
 
-## 🗃️ Banco de Dados H2
+##  Banco de Dados H2
 
 ### Acesso ao H2 Console
 - **URL:** `http://localhost:8080/api/h2-console`
@@ -375,7 +375,7 @@ O Swagger fornece:
 - Interface interativa para testar os endpoints
 - Exemplos de requests e responses
 
-## 🔄 Migração para PostgreSQL
+##  Migração para PostgreSQL
 
 Para migrar de H2 para PostgreSQL em produção:
 
