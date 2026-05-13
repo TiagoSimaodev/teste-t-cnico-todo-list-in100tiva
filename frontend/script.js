@@ -1,5 +1,5 @@
 // Configuração da API
-const API_BASE_URL = 'https://teste-t-cnico-todo-list-in100tiva-production.up.railway.app/api/tasks';
+const API_BASE_URL = 'teste-tecnico-in100tiva-production.up.railway.app';
 
 // Elementos DOM
 const taskForm = document.getElementById('taskForm');
