@@ -1,12 +1,13 @@
 # To-Do List 100tiva - Backend API
 
-Backend completo e profissional para uma aplicação To-Do List desenvolvido com Java 21 e Spring Boot. Esta API REST fornece operações CRUD completas para gerenciamento de tarefas, com persistência em banco de dados H2 e documentação Swagger/OpenAPI.
+Backend completo e profissional para uma aplicação To-Do List desenvolvido com Java 21 e Spring Boot. Esta API REST fornece operações CRUD completas para gerenciamento de tarefas, com persistência em banco de dados postgresql e documentação Swagger/OpenAPI.
 
 ##  Deploy da Aplicação
+No link do frontend está aplicação completa no ar, onde o front está se conectando ao backend e ao postgresql
 
-- Frontend: https://to-do-lista-in100tiva.vercel.app/
-- Backend API: https://teste-t-cnico-todo-list-in100tiva-production.up.railway.app/api/tasks
-- Swagger UI: https://teste-t-cnico-todo-list-in100tiva-production.up.railway.app/api/swagger-ui/index.html
+- Frontend: https://teste-t-cnico-todo-list-in100tiva.vercel.app/
+- Backend API: https://teste-tecnico-in100tiva-production.up.railway.app/api/tasks
+- Swagger UI: https://teste-tecnico-in100tiva-production.up.railway.app/api/swagger-ui/index.html
 
 
 ##  Tecnologias Utilizadas
@@ -15,7 +16,7 @@ Backend completo e profissional para uma aplicação To-Do List desenvolvido com
 - **Spring Boot 3.2.0** - Framework para desenvolvimento de aplicações Java
 - **Spring Web** - Para criação de APIs REST
 - **Spring Data JPA** - Para persistência de dados
-- **H2 Database** - Banco de dados em memória para desenvolvimento
+- **PostgreSQL** - Banco de dados da aplicação
 - **Bean Validation** - Para validação de dados
 - **Swagger/OpenAPI** - Para documentação da API
 - **Maven** - Gerenciamento de dependências e build
@@ -319,7 +320,7 @@ DELETE /api/tasks/1
    - **Frontend:** Abra `frontend/index.html` no navegador
    - **API:** `http://localhost:8080/api/tasks`
    - **Swagger UI:** `http://localhost:8080/api/swagger-ui/index.html`
-   - **H2 Console:** `http://localhost:8080/api/h2-console`
+   
 
 ### Testando a Aplicação
 
@@ -353,17 +354,6 @@ curl -X DELETE http://localhost:8080/api/tasks/1
 
 ##  Banco de Dados H2
 
-### Acesso ao H2 Console
-- **URL:** `http://localhost:8080/api/h2-console`
-- **JDBC URL:** `jdbc:h2:mem:todolistdb`
-- **Username:** `sa`
-- **Password:** *(vazio)*
-
-### Configurações do H2
-- **Banco em memória:** Os dados são perdidos ao reiniciar a aplicação
-- **DDL Auto:** `create-drop` (recria as tabelas a cada inicialização)
-- **Console habilitado:** Para facilitar o desenvolvimento
-
 ## Documentação da API (Swagger)
 
 A documentação completa da API está disponível via Swagger UI:
@@ -375,9 +365,9 @@ O Swagger fornece:
 - Interface interativa para testar os endpoints
 - Exemplos de requests e responses
 
-##  Migração para PostgreSQL
+## PostgreSQL
 
-Para migrar de H2 para PostgreSQL em produção:
+PostgreSQL em produção:
 
 1. **Adicione a dependência do PostgreSQL no pom.xml:**
    ```xml
@@ -412,10 +402,6 @@ Para migrar de H2 para PostgreSQL em produção:
 ### spring-boot-starter-data-jpa
 - Integração com JPA/Hibernate
 - Repositórios, transações, etc.
-
-### h2
-- Banco de dados em memória para desenvolvimento
-- Console web para visualizar dados
 
 ### spring-boot-starter-validation
 - Implementação de Bean Validation (Hibernate Validator)
