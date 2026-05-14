@@ -16,7 +16,7 @@ No link do frontend está aplicação completa no ar, onde o front está se cone
 - **Spring Boot 3.2.0** - Framework para desenvolvimento de aplicações Java
 - **Spring Web** - Para criação de APIs REST
 - **Spring Data JPA** - Para persistência de dados
-- **H2 Database** - Banco de dados em memória para desenvolvimento
+- **PostgreSQL** - Banco de dados da aplicação
 - **Bean Validation** - Para validação de dados
 - **Swagger/OpenAPI** - Para documentação da API
 - **Maven** - Gerenciamento de dependências e build
