@@ -1,0 +1,309 @@
+2026-05-11T20:09:19.936Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-05-11T20:09:19.938Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva"
+}}).
+2026-05-11T20:09:19.938Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T20:09:23.322Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 17.0.12\n   📁 Path: C:\\Program Files\\Java\\jdk-17\\bin\n   🏷️ Source: others\n\n2. Java 21.0.11\n   📁 Path: C:\\Program Files\\Java\\jdk-21.0.11\\bin\n   🏷️ Source: PATH,JAVA_HOME\n\n3. Java 25.0.2\n   📁 Path: C:\\Users\\tiago\\.jdk\\jdk-25.0.2\\bin\n   🏷️ Source: install\n\nTotal: 3 JDK installation(s) found"
+}}).
+2026-05-11T20:09:23.323Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-05-11T20:09:24.374Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-05-11T20:09:24.375Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "includeVersion": true,
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva"
+}}).
+2026-05-11T20:09:24.376Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T20:10:51.052Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following maven installations in your system:\n\n1. Maven 4.0.0-rc-5\n   📁 Path: C:\\Users\\tiago\\.maven\\apache-maven-4.0.0-rc-5\\bin\n   🏷️ Source: install\n\n2. Maven 3.9.15\n   📁 Path: C:\\Users\\tiago\\.maven\\maven-3.9.15\\bin\n   🏷️ Source: install\n\n3. Maven 3.9.15\n   📁 Path: C:\\apache-maven-3.9.15\\bin\n   🏷️ Source: MAVEN_HOME,PATH\n\nTotal: 3 Maven installation(s) found"
+}}).
+2026-05-11T20:10:51.053Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-05-11T20:11:07.247Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T20:11:07.249Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded",
+  "details": {
+    "baseJdkVersion": "17",
+    "targetVersion": "Java 21"
+  }
+}}).
+2026-05-11T20:11:07.362Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T20:11:07.364Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T20:11:07.365Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T20:11:16.818Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T20:11:16.819Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded",
+  "details": {
+    "baseJdkVersion": "17",
+    "targetVersion": "Java 21"
+  }
+}}).
+2026-05-11T20:11:16.820Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T20:11:16.832Z [INFO] Project c:\Users\tiago\Documents\projetos\to-do-list-100tiva is a maven project, try to get java version from pom.xml
+2026-05-11T20:11:16.836Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260511200919,\nSession Dir: c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva\\.github\\java-upgrade\\20260511200919"
+}}).
+2026-05-11T20:11:16.837Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T20:11:17.010Z [INFO] Project java version: 17
+2026-05-11T20:11:17.011Z [INFO] Maven project detected.
+2026-05-11T20:11:17.012Z [INFO] Build tool type: mvn
+2026-05-11T20:11:19.087Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Java\\jdk-17\\bin",
+  "version": "17"
+}
+2026-05-11T20:11:20.004Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\apache-maven-3.9.15\\bin",
+  "version": "",
+  "source": "MAVEN_HOME,PATH"
+}
+2026-05-11T20:11:20.004Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\apache-maven-3.9.15\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "MAVEN_HOME,PATH"
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Java\\jdk-17\\bin",
+    "name": "java",
+    "version": "17"
+  },
+  "name": "to-do-list-100tiva",
+  "dir": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva"
+}
+2026-05-11T20:11:22.186Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T20:11:22.187Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "sessionId": "20260511200919",
+  "status": "succeeded"
+}}).
+2026-05-11T20:11:22.194Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T20:11:22.195Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T20:11:22.195Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T20:11:22.315Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T20:11:22.316Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "sessionId": "20260511200919",
+  "status": "succeeded"
+}}).
+2026-05-11T20:11:22.332Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T20:11:22.387Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planGenerationStarted' reported!\nSession ID: 20260511200919,\nSession Dir: c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva\\.github\\java-upgrade\\20260511200919"
+}}).
+2026-05-11T20:11:22.404Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T20:11:58.821Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T20:11:58.822Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planReviewed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "sessionId": "20260511200919",
+  "status": "succeeded"
+}}).
+2026-05-11T20:11:58.822Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T20:11:58.829Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T20:11:58.831Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T20:11:58.970Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T20:11:58.971Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planReviewed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "sessionId": "20260511200919",
+  "status": "succeeded"
+}}).
+2026-05-11T20:11:58.971Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T20:11:58.981Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planReviewed' reported!\nSession ID: 20260511200919,\nSession Dir: c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva\\.github\\java-upgrade\\20260511200919"
+}}).
+2026-05-11T20:11:58.982Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T20:15:15.676Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T20:15:15.677Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planConfirmed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "sessionId": "20260511200919",
+  "status": "succeeded"
+}}).
+2026-05-11T20:15:15.678Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T20:15:15.678Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T20:15:15.679Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T20:15:15.799Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T20:15:15.800Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planConfirmed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "sessionId": "20260511200919",
+  "status": "succeeded"
+}}).
+2026-05-11T20:15:15.800Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T20:15:15.802Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planConfirmed' reported!\nSession ID: 20260511200919,\nSession Dir: c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva\\.github\\java-upgrade\\20260511200919"
+}}).
+2026-05-11T20:15:15.803Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T20:15:24.313Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T20:15:24.314Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "sessionId": "20260511200919",
+  "status": "succeeded"
+}}).
+2026-05-11T20:15:24.315Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T20:15:24.315Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T20:15:24.316Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T20:15:24.418Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T20:15:24.421Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "sessionId": "20260511200919",
+  "status": "succeeded"
+}}).
+2026-05-11T20:15:24.421Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T20:15:24.572Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionStarted' reported!\nSession ID: 20260511200919,\nSession Dir: c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva\\.github\\java-upgrade\\20260511200919"
+}}).
+2026-05-11T20:15:24.573Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T20:15:46.336Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T20:15:46.337Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "environmentSetup",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "sessionId": "20260511200919",
+  "status": "succeeded",
+  "details": {
+    "jdkPath": "C:\\Program Files\\Java\\jdk-21.0.11",
+    "buildToolPath": "C:\\apache-maven-3.9.15\\bin"
+  }
+}}).
+2026-05-11T20:15:46.337Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T20:15:46.338Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T20:15:46.340Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T20:15:46.442Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T20:15:46.443Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "environmentSetup",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "sessionId": "20260511200919",
+  "status": "succeeded",
+  "details": {
+    "jdkPath": "C:\\Program Files\\Java\\jdk-21.0.11",
+    "buildToolPath": "C:\\apache-maven-3.9.15\\bin"
+  }
+}}).
+2026-05-11T20:15:46.443Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T20:15:46.444Z [INFO] Project c:\Users\tiago\Documents\projetos\to-do-list-100tiva is a maven project, try to get java version from pom.xml
+2026-05-11T20:15:46.446Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentSetup' reported!\nSession ID: 20260511200919,\nSession Dir: c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva\\.github\\java-upgrade\\20260511200919"
+}}).
+2026-05-11T20:15:46.446Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T20:15:46.454Z [INFO] Project java version: 17
+2026-05-11T20:15:46.457Z [INFO] Build tool type detected from path: mvn
+2026-05-11T20:15:46.457Z [INFO] Build tool type: mvn
+2026-05-11T20:15:46.458Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Java\\jdk-21.0.11\\bin",
+  "version": "17"
+}
+2026-05-11T20:15:46.458Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\apache-maven-3.9.15\\bin",
+  "version": ""
+}
+2026-05-11T20:15:46.459Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\apache-maven-3.9.15\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Java\\jdk-21.0.11\\bin",
+    "name": "java",
+    "version": "17"
+  },
+  "name": "to-do-list-100tiva",
+  "dir": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva"
+}
+2026-05-11T20:25:36.593Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T20:25:36.596Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "baselineSetup",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "sessionId": "20260511200919",
+  "status": "succeeded",
+  "message": "Baseline compilation successful with Java 17. No test files present - test count: 0. Main source and test classes compiled successfully."
+}}).
+2026-05-11T20:25:36.597Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T20:25:36.599Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T20:25:36.600Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T20:25:36.978Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T20:25:36.979Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "baselineSetup",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "sessionId": "20260511200919",
+  "status": "succeeded",
+  "message": "Baseline compilation successful with Java 17. No test files present - test count: 0. Main source and test classes compiled successfully."
+}}).
+2026-05-11T20:25:36.979Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T20:25:36.987Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'baselineSetup' reported!\nSession ID: 20260511200919,\nSession Dir: c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva\\.github\\java-upgrade\\20260511200919"
+}}).
+2026-05-11T20:25:36.990Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T20:25:41.343Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T20:25:41.343Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Update Java Version in pom.xml"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "sessionId": "20260511200919",
+  "status": "succeeded"
+}}).
+2026-05-11T20:25:41.344Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T20:25:41.345Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T20:25:41.346Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T20:25:41.649Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T20:25:41.650Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Update Java Version in pom.xml"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva",
+  "sessionId": "20260511200919",
+  "status": "succeeded"
+}}).
+2026-05-11T20:25:41.650Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T20:25:41.653Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260511200919,\nSession Dir: c:\\Users\\tiago\\Documents\\projetos\\to-do-list-100tiva\\.github\\java-upgrade\\20260511200919"
+}}).
+2026-05-11T20:25:41.656Z [INFO] ----------------------invoked appmod-report-event----------------------
