@@ -3,6 +3,7 @@
 Backend completo e profissional para uma aplicação To-Do List desenvolvido com Java 21 e Spring Boot. Esta API REST fornece operações CRUD completas para gerenciamento de tarefas, com persistência em banco de dados H2 e documentação Swagger/OpenAPI.
 
 ##  Deploy da Aplicação
+No link do frontend está aplicação completa no ar, onde o front está se conectando ao backend e ao postgresql
 
 - Frontend: https://teste-t-cnico-todo-list-in100tiva.vercel.app/
 - Backend API: https://teste-tecnico-in100tiva-production.up.railway.app/api/tasks
