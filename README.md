@@ -351,8 +351,7 @@ curl -X PUT http://localhost:8080/api/tasks/1 \
 # Excluir tarefa
 curl -X DELETE http://localhost:8080/api/tasks/1
 ```
-
-##  Banco de Dados H2
+ 
 
 ## Documentação da API (Swagger)
 
@@ -364,6 +363,8 @@ O Swagger fornece:
 - Especificações OpenAPI 3.0
 - Interface interativa para testar os endpoints
 - Exemplos de requests e responses
+
+##  Banco de Dados
 
 ## PostgreSQL
 
@@ -393,7 +394,6 @@ PostgreSQL em produção:
 
 3. **Configure variáveis de ambiente** para credenciais sensíveis.
 
-##  Dependências Maven Explicadas
 
 ### spring-boot-starter-web
 - Fornece tudo necessário para criar aplicações web com Spring MVC
